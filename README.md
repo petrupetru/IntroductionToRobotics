@@ -9,7 +9,7 @@
   **• Technical Task:** Use a separat potentiometer in controlling each of thecolor of the RGB led (Red,Green andBlue).  The control must be donewithdigital electronics(aka you must read the value of the potentiome-ter with Arduino, and write a mapped value to each of the pins connectedto the led.  
   **• Publishing task:** You must add the code to the Git repo and continueupdating the readme with at least the following details (but feel free tobe more creative):
   1.  Task Requirements
-  2.  Pictures of the setup
+  2.  Pictures of the setup    
    ![My Image](assets/PXL_20221026_143910943.jpg) 
    ![My Image](assets/PXL_20221026_143942366.jpg)
   3.  Link to video showcasing functionality  
@@ -33,7 +33,7 @@
   Be  careful:  pressing  the  button  in  any  state  other  than  state  1  should NOT yield any actions.  
   **•Publishing task:** You must add the code to the Github repo and continue updating the readme with at least the following details (but feel free tobe more creative).  
   1.  Task Requirements  
-  2.  Picture of the setup  
+  2.  Pictures of the setup  
     ![My Image](assets/PXL_20221102_141041878.jpg) 
     ![My Image](assets/PXL_20221102_141049785.jpg)
   3.  Link to video showcasing functionality  
