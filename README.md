@@ -55,7 +55,7 @@
     ![My Image](assets/h31.jpg) 
     ![My Image](assets/h32.jpg)
   3.  Link to video showcasing functionality  
-     [Youtube video]([https://youtu.be/eCSHjbwQlj0](https://youtu.be/Zrn_YXax0Jc) "Youtube video")
+     [Youtube video](https://youtu.be/Zrn_YXax0Jc) "Youtube video")
   4.  Remember to publish the video in the correct orientation.  
   5.Hand in the homework on MS teams when done - aka whenGit is up to date
   <!-- -->
