@@ -42,4 +42,20 @@
   5.Hand in the homework on MS teams when done - aka whenGit is up to date
   <!-- -->
   
-  
+ ## Homework 3  
+  As was described in the course, the homework consists of the following:
+  **•Components:**  1  7-segment  display,  1  joystick,  resistors  and  wires  (perlogic)  
+  **•General description:** You will use the joystick to control the position ofthe segment and ”draw” on the display.  The movement between segmentsshould be natural (meaning they should jump from the current positiononly to neighbors, but without passing through ”walls”.  
+  **The system has the following states:**  
+  **1.State  1**(default,  but  also  initiated  after  a  button  press  in  State2):  Current  position  blinking.   Can  use  the  joystick  to  move  fromone  position  to  neighbors.   Short  pressing  the  button  toggles  state2.  Long pressing the button in state 1 resets the entire display byturning all the segments OFF and moving the current position to thedecimal point.  
+  **2.State  2**(initiated  after  a  button  press  in  State  1):   The  currentsegment  stops  blinking,  adopting  the  state  of  the  segment  beforeselection (ON or OFF). Toggling the X (or Y, you chose) axis shouldchange  the  segment  state  from  ON  to  OFF  or  from  OFF  to  ON. Clicking the joystick should save the segment state and exit back tostate 1.
+  **•Publishing task:** You must add the code to the Github repo and continue updating the readme with at least the following details (but feel free tobe more creative).  
+  1.  Task Requirements  
+  2.  Pictures of the setup  
+    ![My Image](assets/h31.jpg) 
+    ![My Image](assets/h32.jpg)
+  3.  Link to video showcasing functionality  
+     [Youtube video]([https://youtu.be/eCSHjbwQlj0](https://youtu.be/Zrn_YXax0Jc) "Youtube video")
+  4.  Remember to publish the video in the correct orientation.  
+  5.Hand in the homework on MS teams when done - aka whenGit is up to date
+  <!-- -->
