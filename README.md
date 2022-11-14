@@ -13,7 +13,7 @@
    ![My Image](assets/PXL_20221026_143910943.jpg) 
    ![My Image](assets/PXL_20221026_143942366.jpg)
   3.  Link to video showcasing functionality  
-   [Youtube video](https://youtu.be/BsDxWu4RSrA "Youtube video")
+   [Youtube video](https://youtu.be/BsDxWu4RSrA "")
   4.  Remember to publish the video in the correct orientation. 
   5.  Hand in the homework on MS teams when done - aka whengit is up to date  
   <!-- -->
@@ -37,7 +37,7 @@
     ![My Image](assets/PXL_20221102_141041878.jpg) 
     ![My Image](assets/PXL_20221102_141049785.jpg)
   3.  Link to video showcasing functionality  
-     [Youtube video](https://youtu.be/eCSHjbwQlj0 "Youtube video")
+     [Youtube video](https://youtu.be/eCSHjbwQlj0 "")
   4.  Remember to publish the video in the correct orientation.  
   5.Hand in the homework on MS teams when done - aka whenGit is up to date
   <!-- -->
@@ -55,7 +55,42 @@
     ![My Image](assets/h31.jpg) 
     ![My Image](assets/h32.jpg)
   3.  Link to video showcasing functionality  
-     [Youtube video](https://youtu.be/Zrn_YXax0Jc) "Youtube video")
+     [Youtube video](https://youtu.be/Zrn_YXax0Jc "")
   4.  Remember to publish the video in the correct orientation.  
   5.Hand in the homework on MS teams when done - aka whenGit is up to date
   <!-- -->
+  
+  ## Homework 4
+   Basic requirements:
+**• Components:** a joystick, a 4 digit 7-segment display, a 74hc595 shift
+register  
+**• General Description:** Use the joystick to move through the 4 digit 7
+segment displays digits, press the button to lock in on the current digit
+and use the other axis to increment or decrement the number. Keep the
+button pressed to reset all the digit values and the current position to the
+first digit in the first state.  
+The system has the following states:  
+**1. First state:** you can use a joystick axis to cycle through the 4 digits;
+using the other axis does nothing. A blinking decimal point shows
+the current digit position. When pressing the button, you lock in on
+the selected digit and enter the second state.  
+**2. Second state:** in this state, the decimal point stays always on, no
+longer blinking and you can no longer use the axis to cycle through
+the 4 digits. Instead, using the other axis, you can increment on
+decrement the number on the current digit IN HEX (aka from 0
+to F, as in the lab). Pressing the button again returns you to the
+previous state. Also, keep in mind that when changing the number,
+you must increment it for each joystick movement - it should not
+work continuosly increment if you keep the joystick in one position
+(aka with joyMoved).  
+**3. Reset:** toggled by long pressing the button only in the first state.
+When resetting, all the digits go back to 0 and the current position
+is set to the first (rightmost) digit, in the first state.  
+• Publishing task: You must add the code to the Github repo and continue
+updating the readme with at least the following details:  
+1. Task Requirements
+2. Picture of the setup  
+ ![My Image](assets/homework4picture.jpg) 
+3. Link to video showcasing functionality 
+[Youtube video](https://www.youtube.com/shorts/py17s0I5fGs "")
+
