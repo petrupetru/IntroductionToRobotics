@@ -95,7 +95,11 @@ updating the readme with at least the following details:
 [Youtube video](https://www.youtube.com/shorts/py17s0I5fGs "")
 
 ## Homework 5
-LCD menu + mini game
-Photos:
+LCD menu + mini game  
+Photos:  
+![My Image](PXL_20221207_203151131.jpg)  
+![My Image](PXL_20221207_203208570.jpg)  
+![My Image](PXL_20221207_203223766.jpg)  
+
 Video: [Youtube video](https://youtube.com/shorts/KtHuDofR_Xg "")
 
