@@ -94,3 +94,8 @@ updating the readme with at least the following details:
 3. Link to video showcasing functionality 
 [Youtube video](https://www.youtube.com/shorts/py17s0I5fGs "")
 
+## Homework 5
+LCD menu + mini game
+Photos:
+Video: [Youtube video](https://youtube.com/shorts/KtHuDofR_Xg "")
+
